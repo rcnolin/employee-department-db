@@ -24,7 +24,7 @@ app.get('/', function(req, res){
     });
 });
 
-//Filter employees base on their gender and department_id (name, gender, department_id)
+//Filter employees base on their gender and/or department_id  display (name, gender, department_id)
 app.get('/filter', function(req, res){
     let data = {
         where: {},
